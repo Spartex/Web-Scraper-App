@@ -165,4 +165,5 @@ $(document).ready(function() {
 
       });
     });
-  }); 
+  }); // End savedArticles btn Click
+}); // End of document.ready
