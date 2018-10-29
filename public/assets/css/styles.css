@@ -1,0 +1,19 @@
+h4{
+  color: white;
+}
+
+.hover{
+    background-color: #F26232
+}
+
+.hoverRed:hover{
+  color: #000000;
+}
+
+.hover:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav {
+  background-color: #000000 !important;
+}
