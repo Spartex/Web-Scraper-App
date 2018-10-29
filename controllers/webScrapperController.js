@@ -7,12 +7,14 @@ let db = require("../models"); // Require all models
 //mongoose config
 mongoose.Promise = Promise; // Set mongoose to leverage Built in JavaScript ES6 Promises
 //mongoose.connect('mongodb://localhost:27017/lessondb');
-mongoose.connect("mongodb://heroku_gv7l2grr:D8KZ2GLyp76MPd4@ds021999.mlab.com:21999/heroku_gv7l2grr")
+mongoose.connect("mongodb://heroku_gv7l2grr:db123456@ds021999.mlab.com:21999/heroku_gv7l2grr", {
 //mongoose.connect("mongodb://heroku_n498q09l:nqhsgor6hvbhfudh35mk0npfo0@ds147267.mlab.com:47267/heroku_n498q09l", { // Connect to the Mongo DB
-useMongoClient: true
+
 });
 
-//mongodb://heroku_gv7l2grr:D8KZ2GLyp76MPd4@ds021999.mlab.com:21999/heroku_gv7l2grr
+//mongodb://heroku_gv7l2grr:db123456@ds021999.mlab.com:21999/heroku_gv7l2grr
+
+// mongodb://heroku_gv7l2grr:D8KZ2GLyp76MPd4@ds021999.mlab.com:21999/heroku_gv7l2grr
 
 // mongodb://heroku_n498q09l:nqhsgor6hvbhfudh35mk0npfo0@ds147267.mlab.com:47267/heroku_n498q09l
 
