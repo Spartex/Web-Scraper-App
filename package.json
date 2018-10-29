@@ -1,0 +1,28 @@
+{
+  "name": "web-scraper-app",
+  "version": "1.0.0",
+  "description": "Instructions",
+  "main": "main.bundle.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spartex/Web-Scraper-App.git"
+  },
+  "author": "John Comodikes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spartex/Web-Scraper-App/issues"
+  },
+  "homepage": "https://github.com/Spartex/Web-Scraper-App#readme"
+}
